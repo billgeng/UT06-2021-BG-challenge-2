@@ -11,8 +11,15 @@ body {
 
 body {
   background-color: #d9dcd6;
+  text-aligin:center;
 }
+.content {
+width:1000px;
+margin-left: auto;
+margin-right:auto;
 
+
+}
 .header-container {
   padding: 20px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -24,7 +31,7 @@ body {
 .header-container h1 {
   padding: left 20px;
    display: inline-block;
-  font-size: 80px;
+  font-size: 60px;
   }
 .header-container nav {
   padding: 30px;
@@ -51,7 +58,7 @@ p {
   font-weight: 300;
 }
 .super {
-  height: 1200px;
+  height: 1024px;
   width: 100%;
   margin-bottom: 20px;
   background-image: url("./assets/img/BillG.jpg");
@@ -65,7 +72,7 @@ p {
   color: white;
   text-align: right;
   position: absolute;
-  top: 150%;
+  top: 120%;
   left: 50%;
 }
 
@@ -109,14 +116,15 @@ p {
 }
 .aboutme-wrapper {
   padding: 25px;
-  display: grid;
   display: flex;
   align-content: center;
   justify-content: flex-start;
 }
-.aboutme-wrapper h2 {
-  font-size: 50px;
+.aboutme-wrapper h2,.work-wrapper h2,.contact h2,.resume h2 {
+  font-size: 35px;
+  font:bold;
   padding-right: 25px;
+  flex-grow:0.2;
 }
 .aboutme-wrapper ul li {
   padding-left: 25px;
@@ -130,11 +138,15 @@ p {
    align-items: :center;
    box-sizing: inherit; 
 }
-.work-wrapper h2 {
-   padding: 25px;
-   font-size: 50px;
-   
+
+.company-container {
+    padding :5px;
+    margin:2px;
+    display:flex;
+    align-content: space-between;
 }
+
+
 .company {
     padding:20px;
     display:inline-flexbox;
@@ -161,13 +173,7 @@ justify-content:left;
 align-items: center;
 
 }
-.contact h2 {
-   padding-right:20px;
-   font-size:50px;
-   font:bolder;
 
-
-}
 .contact nav {
    display:inline-flex;
 
@@ -178,9 +184,4 @@ align-items: center;
    display:flex;
    justify-content: left;
    
-}
-.resume h2 {
-   padding:25px;
-   font-size: 50px;
-
 }
