@@ -60,6 +60,7 @@ p {
   width: 100%;
   margin-bottom: 20px;
   background-repeat: no-repeat;
+  background:fixed ;
   background-size: cover;
   background-position: center;
 }
