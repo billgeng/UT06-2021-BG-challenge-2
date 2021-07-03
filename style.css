@@ -174,7 +174,7 @@ p {
   align-items: center;
   box-shadow: rgba(12, 97, 209, 0.911) 2px;
   text-align: center;
-  cursor:pointer;
+  cursor: pointer;
 }
 .company1 {
   background-image: url("./assets/img/Cyber\ Business\ Interruption\ Insights\ Post.jpg");
@@ -186,8 +186,11 @@ p {
   grid-column-start: 1;
   grid-column-end: 4;
   text-align: center;
+  opacity: 0.5;
 }
-
+.company1:hover {
+  opacity: 1;
+}
 .company2 {
   background-image: url("./assets/img/background.jpg");
   background-position: center;
@@ -195,8 +198,11 @@ p {
   padding: 20px;
   height: 150px;
   width: 250px;
+  opacity: 0.5;
 }
-
+.company2:hover {
+  opacity: 1;
+}
 .company3 {
   background-image: url("./assets/img/rsz_bigstock-vector-illustration-white-gear-101409422.jpg");
   background-position: center;
@@ -204,8 +210,11 @@ p {
   padding: 20px;
   height: 150px;
   width: 250px;
+  opacity: 0.5;
 }
-
+.company3:hover {
+  opacity: 1;
+}
 .company4 {
   background-image: url("./assets/img/headdd.jpg");
   background-position: center;
@@ -213,8 +222,11 @@ p {
   padding: 20px;
   height: 150px;
   width: 250px;
+  opacity: 0.5;
 }
-
+.company4:hover {
+  opacity: 1;
+}
 .resume button {
   background-color: orange;
   height: 50px;
