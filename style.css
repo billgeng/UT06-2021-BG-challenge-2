@@ -147,7 +147,7 @@ p {
 .work-wrapper {
   padding: 25px;
   display: flex;
-  height: 500px;
+  height: 600px;
   justify-items: space-between;
   align-content: center;
   box-sizing: inherit;
@@ -173,8 +173,8 @@ p {
   padding: 10px;
   border: 10px;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   box-shadow: rgba(12, 97, 209, 0.911) 2px;
   text-align: center;
